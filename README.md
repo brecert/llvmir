@@ -3,7 +3,7 @@
 
 ## Example
 
-```js
+```ts
 import { Module, Instructions, Values, Types, utils } from '@brecert/llvmir'
 
 const module = new Module
@@ -45,7 +45,7 @@ module.build().join('\n')
 
 should build something like
 
-```js
+```llir
 define i32 @main () {                                                                                                   bb1:
   %0 = add i32 3, 6
   ret i32 %0
