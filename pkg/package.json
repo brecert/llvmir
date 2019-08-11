@@ -1,7 +1,7 @@
 {
   "name": "@brecert/llvmir",
   "description": "Construct LLVM-IR using pure javascript",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "license": "MIT",
   "files": [
     "dist-*/",
