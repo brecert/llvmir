@@ -1,4 +1,4 @@
-import * as LLVM from 'llvmir'
+import * as LLVM from '@brecert/llvmir'
 
 const { Instructions, Types, Values ,Module, utils } = LLVM
 const { i, sig, define, nop } = utils

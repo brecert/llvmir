@@ -4,7 +4,7 @@
 ## Example
 
 ```js
-import { Module, Instructions, Values, Types, utils } from 'llvmir'
+import { Module, Instructions, Values, Types, utils } from '@brecert/llvmir'
 
 const module = new Module
 
