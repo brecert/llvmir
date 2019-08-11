@@ -1,12 +1,10 @@
 # llvmir
-> Construct LLVM-IR using pure javascript
-
-> [W.I.P]
+> [W.I.P] Construct LLVM-IR using pure javascript
 
 ## Example
 
 ```js
-import { Module, Instructions, Values, Types, utils } from 'llvmir'
+import { Module, Instructions, Values, Types, utils } from '@brecert/llvmir'
 
 const module = new Module
 
