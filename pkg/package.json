@@ -1,0 +1,43 @@
+{
+  "name": "llvmir",
+  "description": "Construct LLVM-IR using pure javascript",
+  "version": "0.1.1",
+  "license": "MIT",
+  "files": [
+    "dist-*/",
+    "bin/"
+  ],
+  "pika": true,
+  "sideEffects": false,
+  "keywords": [
+    "llvm",
+    "llvm-ir",
+    "ir",
+    "asm",
+    "compiler"
+  ],
+  "homepage": "https://github.com/brecert/llvmir#readme",
+  "bugs": {
+    "url": "https://github.com/brecert/llvmir/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brecert/llvmir.git"
+  },
+  "dependencies": {
+    "tiny-invariant": "^1.0.6"
+  },
+  "devDependencies": {
+    "@pika/plugin-build-node": "^0.6.0",
+    "@pika/plugin-build-umd": "^0.6.0",
+    "@pika/plugin-build-web": "^0.6.0",
+    "@pika/plugin-bundle-web": "^0.6.0",
+    "@pika/plugin-ts-standard-pkg": "^0.6.0",
+    "@pika/types": "^0.6.0",
+    "typescript": "^3.5.3"
+  },
+  "source": "dist-src/index.js",
+  "types": "dist-types/index.d.ts",
+  "main": "dist-node/index.js",
+  "module": "dist-web/index.js"
+}

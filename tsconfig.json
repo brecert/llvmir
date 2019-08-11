@@ -1,0 +1,13 @@
+{
+  "include": [ "src" ],
+  "exclude": [ "node_modules" ],
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "esnext",
+    "lib": [ "esnext", "dom" ],
+    "strict": true,
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  }
+}
