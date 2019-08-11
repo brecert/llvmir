@@ -1,7 +1,5 @@
 # llvmir
-> Construct LLVM-IR using pure javascript
-
-> [W.I.P]
+> [W.I.P] Construct LLVM-IR using pure javascript
 
 ## Example
 
